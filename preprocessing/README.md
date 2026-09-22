@@ -1,14 +1,18 @@
 # ECG Preprocessing
 
-This folder contains the preprocessing pipeline used to prepare ECG signals before AI-based classification.
+This folder contains the ECG signal preprocessing and conditioning stage used before AI-based analysis.
 
-## Planned Processing
+## Preprocessing Workflow
 
-- ECG signal loading
-- Noise reduction
-- Baseline wander removal
-- Signal normalization
-- Segmentation
-- Input formatting for the AI model
-
-The preprocessing pipeline prepares ECG signals for reliable model inference.
+```text
+Raw ECG Signal
+      ↓
+AD8232 Signal Conditioning
+      ↓
+ECG Digitization
+      ↓
+Signal Processing
+      ↓
+Filtered ECG Signal
+      ↓
+AI Model Inference
