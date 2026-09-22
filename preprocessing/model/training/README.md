@@ -1,14 +1,27 @@
 # Model Training
 
-This folder contains the scripts and documentation related to training the ECG arrhythmia classification model.
+This folder contains the scripts and documentation related to developing and evaluating the AI model for ECG abnormality and arrhythmia classification.
 
-## Training Pipeline
+## Model Development Pipeline
 
-1. Load ECG dataset
-2. Preprocess ECG signals
-3. Prepare training and validation data
-4. Train the neural network
-5. Evaluate model performance
-6. Save the trained model
+1. Use public ECG datasets
+2. Prepare ECG data for model development
+3. Process ECG signals
+4. Explore suitable AI models for ECG classification
+5. Evaluate ECG classification performance
+6. Prepare the selected model for Edge-AI / TensorFlow Lite deployment
 
-Training scripts and configuration files will be added here as development progresses.
+## Evaluation
+
+The model development process focuses on ECG classification and validation using performance measures such as:
+
+- Accuracy
+- Sensitivity
+- Specificity
+- F1-score
+
+## Deployment
+
+The selected lightweight model is intended for local inference on the Raspberry Pi 3 using TensorFlow Lite.
+
+Training scripts, model configurations, evaluation results, and related files will be added here as development progresses.
